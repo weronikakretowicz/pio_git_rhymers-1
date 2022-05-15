@@ -16,3 +16,5 @@ public class HanoiRhymer extends DefaultCountingOutRhymer {
             super.countIn(in);
     }
 }
+
+//Za pomocą kombinacji klawiszy alt + <- (alt + ->) jestem w stanie szybko przełączać karty w IDE

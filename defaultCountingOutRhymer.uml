@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.kis.vh.nursery.defaultCountingOutRhymer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">edu.kis.vh.nursery.defaultCountingOutRhymer</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="114.0" y="126.5" />
+  <SelectedNodes>
+    <node>edu.kis.vh.nursery.defaultCountingOutRhymer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
