@@ -2,36 +2,43 @@ package edu.kis.vh.nursery;
 
 public class defaultCountingOutRhymer {
 
-	public static final int INT = 12;
-	public static final int INT1 = -1;
-	public static final int INT2 = 11;
-	private int[] NUMBERS = new int[INT];
+    public static final int MAX_LENGHT = 12;
+    public static final int EMPTY_VALUE = -1;
+    public static final int MAX_INDEX = 11;
 
-	public int total = INT1;
+    private int[] numbers = new int[MAX_LENGHT];
 
-	public void countIn(int in) {
-		if (!isFull())
-			NUMBERS[++total] = in;
-	}
+    public int total = EMPTY_VALUE;
 
-		public boolean callCheck() {
-			return total == INT1;
-		}
-		
-			public boolean isFull() {
-				return total == INT2;
-			}
-		
-				protected int peekaboo() {
-					if (callCheck())
-						return INT1;
-					return NUMBERS[total];
-				}
-			
-					public int countOut() {
-						if (callCheck())
-							return INT1;
-						return NUMBERS[total--];
-					}
+    /**
+     * Insert in value in class array
+     * @param in random value which will be stored in number array
+     */
+    public void countIn(int in) {
+        if (!isFull())
+            numbers[++total] = in;
+    }
+
+    public boolean callCheck() {
+        return total == EMPTY_VALUE;
+    }
+
+    public boolean isFull() {
+        return total == MAX_INDEX;
+    }
+
+    protected int peekaboo() {
+        if (callCheck())
+            return EMPTY_VALUE;
+
+        return numbers[total];
+    }
+
+    public int countOut() {
+        if (callCheck())
+            return EMPTY_VALUE;
+
+        return numbers[total--];
+    }
 
 }
